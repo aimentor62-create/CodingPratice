@@ -9,7 +9,7 @@ int main () {
     int target = 6;
     for(int i = 0; i<4; i++){
 for (int j = 1 + i; j<4; j++)
-if(num[i] + num[j] = target ){
+if(num[i] + num[j] == target ){
 cout<<"Target found";
 }
 }

@@ -1,10 +1,12 @@
+//How stack works in c++;
+
 #include<iostream>
 #include<stack>
 using namespace std;
-int main () {
-    string s = "() [] {}";
-    stack<char> st;
-    for(int i = 0; i<s.length(); i++){
-        
-    }
+int main() {
+    stack<int> num;
+    num.push(45);
+    num.push(78);
+    num.push(12);
+    cout<<num.top();
 }
